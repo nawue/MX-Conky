@@ -60,7 +60,7 @@ $color${font Open Sans:bold:size=8.5}Used:$alignr$font $mem of $memmax
 $color${font Open Sans:bold:size=8.5}Free:$alignr$font $memeasyfree
 $color${font Open Sans:bold:size=8.5}Buffers / Cached:$alignr$font$buffers / $cached
 
-${voffset -10}------------------------------------------------- ${font Open Sans:Bold:size=10}${color0}${voffset -2}RAM${color}${font}${voffset -1} ---- ${font Open Sans:Bold:size=10}${color0}${voffset -2}CPU${color}${font}${voffset -1} -
+${voffset -10}-------------------------------------------- ${font Open Sans:Bold:size=10}${color0}${voffset -2}RAM${color}${font}${voffset -1} ----- ${font Open Sans:Bold:size=10}${color0}${voffset -2}CPU${color}${font}${voffset -1} -
 ${top_mem name 1}${alignr}${top_mem cpu 1} %
 ${voffset -13}${alignr}${offset -60}${top_mem mem 1} %
 ${top_mem name 2}${alignr}${top_mem cpu 2} %
